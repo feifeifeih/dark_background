@@ -1,0 +1,44 @@
+body {
+  background-color: #121212; /* Dark background */
+  color: #ffffff; /* White text for body */
+  font-family: Arial, sans-serif;
+  margin: 0; /* Remove default margin */
+  padding: 20px; /* Add some padding to the body */
+}
+
+.container {
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  gap: 10px; /* Adds space between elements */
+}
+
+#textColorPicker {
+  width: 40px; /* Set a smaller width for the color picker */
+  height: 40px; /* Set a smaller height for the color picker */
+  border: 1px solid #444; /* Reduce border thickness to match design */
+  cursor: pointer; /* Makes the color picker clickable */
+  padding: 0; /* Remove any extra padding */
+  background-color: transparent; /* Match the dark theme */
+}
+
+#wordCounter {
+  font-size: 14px;
+  color: #aaaaaa; /* Light gray for the word counter text */
+}
+
+.custom-textarea {
+  background-color: #1e1e1e; /* Slightly lighter dark color for textarea */
+  color: #ffffff; /* White text */
+  border: 1px solid #444; /* Border to help textarea stand out */
+  padding: 10px;
+  width: 400px; /* Set initial width, adjust as needed */
+  height: 200px; /* Set initial height, adjust as needed */
+  font-size: 16px;
+  box-sizing: border-box; /* Include padding and border in width/height */
+  resize: both; /* Allows the user to resize the textarea */
+  overflow: auto; /* Enable scrolling when content exceeds box size */
+}
+
+.custom-textarea::placeholder {
+  color: #aaaaaa; /* Lighter gray for placeholder text */
+}
